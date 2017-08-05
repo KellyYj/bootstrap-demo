@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        var str='helloworld';
+//        alert(str.indexOf('he')>=0 ? 'find': 'not find' );//查找he返回位置
+
+var dt = new Date();
+        dt.getFullYear();
+        console.log(dt);
+
+        console.log(Math.floor(2.3)); //向下取整
+        console.log(Math.ceil(2.3));//向上取整
+        console.log(Math.random()*5+5); //学会思考
+        //数组对像
+        //concat(),join(),pop(),push(),shift(),unshift(),sort(),reverse(),slice(),splice
+
+//        window.confirm();
+        console.log(window.navigator);
+        console.log(window.navigator.cookieEnabled);
+        console.log(window.location);
+//        window.location.href="";//地址跳转
+        console.log(window.history);
+        console.log(window.screen);
+        console.log(window.document);
+window.str = 'union';
+        function t1(){
+//            var str='china';
+
+            function t2(){
+                 str ='japan';
+                alert(str);
+            }
+            t2();
+        }
+        t1();
+
+console.log(window.str);
+
+    </script>
+</head>
+<body>
+<input type="button" value="q" onclick="javascript:window.history.go(0)">
+<input type="button" value="h" onclick="javascript:window.history.go(3)">
+</body>
+</html>

@@ -1,0 +1,65 @@
+
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+		<title>榴莲科技</title>
+		<meta name="keywords" content="榴莲科技" />
+		<meta name="description" content="榴莲科技" />
+		<link href="css/layout.css" rel="stylesheet" type="text/css">
+		<link href="css/login.css" rel="stylesheet" type="text/css">
+	</head>
+	<style>
+		.ibar {display: none;}
+	</style>
+	<body class="login-bg">
+		<div class="main ">
+			<!--登录-->
+			<div class="login-dom login-max">
+				<div class="logo text-center">
+					<a href="#">
+					<img src="images/logo.png" width="180px" height="180px">
+					</a>
+				</div>
+				<div class="login container " id="login">
+					<p class="text-big text-center logo-color">
+						同一个账号，连接一切
+					</p>
+					<p class=" text-center margin-small-top logo-color text-small">
+						控制台 | 云平台 | 论坛 | 云市场
+					</p>
+			           <form action="#">
+						<div class="login-box border text-small" id="box">
+							<div class="name border-bottom">
+								<input type="text" placeholder="手机 / 邮箱 / 某某账号" id="username" name="username" datatype="*" nullmsg="请填写帐号信息">
+							</div>
+							<div class="pwd">
+								<input type="password" placeholder="密码" datatype="*" id="password" name="password" nullmsg="请填写帐号密码">
+							</div>
+						</div>
+	
+						<input type="buttion" class="btn text-center login-btn" value="立即登录">
+					</form>
+					<div class="forget">
+						<a href="#" class="forget-pwd text-small fl">忘记登录密码？</a><a href="#" class="forget-new text-small fr" id="forget-new">创建一个新账号</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer text-center text-small ie">
+				Copyright 2 版权所有 <a href="#" target="_blank">滇ICP备125号</a>
+				<span class="margin-left margin-right">|</span>
+			</div>
+		</div>
+        <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript">
+         $(function(){
+			 $(".login-btn").click(function(){
+				 window.location.href="page/index.html";
+				 })
+			 })
+        </script>
+	</body>
+
+</html>
